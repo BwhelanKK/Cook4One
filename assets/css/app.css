@@ -3,44 +3,4 @@
     margin: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    width: 100vh;
-    min-height: 100vh;
-}
 
-/* Header */
-
-.navbar {
-    display: flex;
-    width: 100%;
-    background-color: gray;
-    justify-content: space-between;
-    padding-right: 1 rem;
-    align-items: center;
-    position: fixed;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    letter-spacing: 3px;
-}
-
-.logo {
-    font-size: 220%;
-    letter-spacing: -4px;
-    margin-left: 1rem;
-}
-
-/* Main content */
-main {
-    background-color: lightskyblue;
-}
-
-/* Footer*/
-footer {
-    background-color: blanchedalmond;
-}
