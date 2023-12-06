@@ -10,6 +10,8 @@ body {
     min-height: 100vh;
 }
 
+/* Header */
+
 .navbar {
     display: flex;
     width: 100%;
@@ -31,4 +33,14 @@ body {
     font-size: 220%;
     letter-spacing: -4px;
     margin-left: 1rem;
+}
+
+/* Main */
+.hero-image{
+    background-image: url(/assets/images/icons8-team-seDjj4dmC9s-unsplash.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
