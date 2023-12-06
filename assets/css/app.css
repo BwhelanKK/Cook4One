@@ -16,6 +16,23 @@ header {
     background-color: lightcoral;
 }
 
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: darkgray;
+    justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+    position: fixed;
+}
+
+navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
 /* Main */
 main {
     background-color: lightblue;
