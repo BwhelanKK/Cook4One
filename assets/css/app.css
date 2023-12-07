@@ -23,6 +23,11 @@ header {
     position: fixed;
     width: 100%;
     padding: 0 1rem;    
+    display: flex;
+    justify-content: space-between;
+    font-size: 140%;
+    align-items: center;
+
 }
 
 .logo {
@@ -57,7 +62,7 @@ a:hover {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
-    margin-top: 150px;
+    margin-top: 47px;
 }
 
 /*  Footer*/
@@ -67,11 +72,18 @@ footer {
 
 /* Media querys for larger screens */
 @media screen and (min-width: 768px) {
-    #menu {
+    nav {
         display: block;
         position: relative;
         width: fit-content;
-        align-items: right;
+        align-items: center;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
     }
 }
 
