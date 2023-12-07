@@ -57,6 +57,7 @@ a:hover {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+    margin-top: 150px;
 }
 
 /*  Footer*/
@@ -64,4 +65,13 @@ footer {
     background-color: orange;
 }
 
+/* Media querys for larger screens */
+@media screen and (min-width: 768px) {
+    #menu {
+        display: block;
+        position: relative;
+        width: fit-content;
+        align-items: right;
+    }
+}
 
