@@ -65,6 +65,10 @@ main {
     margin-top: 47px;
 }
 
+.hero-image {
+    background-image: url(/assets/images/nicholas-doyle-c7N0M_64XqE-unsplash.jpg);
+}
+
 /*  Footer*/
 footer {
     background-color: orange;
