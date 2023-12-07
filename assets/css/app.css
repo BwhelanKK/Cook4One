@@ -1,3 +1,6 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Source+Sans+3:wght@500;600;700&display=swap');
+
 /* Wildcard selector to remove any browser fotmatting */
 * {
     padding: 0;
@@ -9,6 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Cousine', monospace;
 }
 
 /*Header */
@@ -17,6 +21,18 @@ header {
     position: fixed;
     width: 100%;
     padding: 0 1rem;
+    background-color: darkgray;
+    color: white;
+}
+
+.logo {
+    font-family: 'Source' sans-serif;
+    letter-spacing: -4px;
+    color: white;
+}
+
+span {
+    color: black;
 }
 
 header a {
