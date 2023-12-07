@@ -17,22 +17,20 @@ body {
 
 /*Header */
 header {
-    background-color: lightcoral;
+    background-color: white;
     position: fixed;
     width: 100%;
-    padding: 0 1rem;
-    background-color: darkgray;
-    color: white;
+    padding: 0 1rem;    
 }
 
 .logo {
     font-family: 'Source' sans-serif;
-    letter-spacing: -4px;
-    color: white;
+    letter-spacing: -6px;
+    color: black;
 }
 
 span {
-    color: black;
+    color: rgb(237, 34, 34);
 }
 
 header a {
