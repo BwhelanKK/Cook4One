@@ -60,13 +60,17 @@ a:hover {
 
 /*Main */
 main {
-    background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-.hero-image {
-    background-image: url(/assets/images/nicholas-doyle-c7N0M_64XqE-unsplash.jpg);
+#hero-image {
+    background-image: url(../images/jason-briscoe-k21a9naJr04-unsplash.jpggit add);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*  Footer*/
