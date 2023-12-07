@@ -8,7 +8,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 /*Header */
@@ -16,7 +16,18 @@ header {
     background-color: lightcoral;
     position: fixed;
     width: 100%;
+    padding: 0 1rem;
 }
+
+header a {
+    text-decoration: none;
+}
+
+#menu li {
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
 
 /*Main */
 main {
