@@ -56,8 +56,6 @@ a:hover {
 }
 
 
-
-
 /*Main */
 main {
     flex: 1 0 auto;
@@ -76,11 +74,13 @@ main {
 /*  Footer*/
 #footer {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     bottom: 0;
     width: 100%;
     height: auto;
+    column-count: 1;
 }
 
 
@@ -89,11 +89,14 @@ main {
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
+    flex: 30%;
 }
 
 .socials {
     min-height: 200px;
+    justify-content: center;
     width: 200px;
+    flex: 30%;
  }
 
 .address-cork {
@@ -101,6 +104,7 @@ main {
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
+    flex: 30%;
 }
 
 #social-links {
