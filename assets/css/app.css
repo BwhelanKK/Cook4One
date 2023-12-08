@@ -25,7 +25,7 @@ header {
     padding: 0 1rem;    
     display: flex;
     justify-content: space-between;
-    font-size: 140%;
+    font-size: 120%;
     align-items: center;
     column-count: 1;
 }
@@ -33,7 +33,7 @@ header {
 .logo {
     font-family: 'Teko', sans-serif;
     letter-spacing: -2px;
-    font-size: 260%;
+    font-size: 190%;
     color: black;
 }
 
@@ -65,7 +65,7 @@ main {
 }
 
 #hero-image {
-    background-image: url(../images/jason-briscoe-k21a9naJr04-unsplash.jpggit add);
+    background-image: url(../images/jason-briscoe-k21a9naJr04-unsplash.jpg);
     height: 500px;
     width: 100%;
     background-position: center;
@@ -74,8 +74,50 @@ main {
 }
 
 /*  Footer*/
-footer {
-    background-color: orange;
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.address-dublin {
+    height: auto;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.socials {
+    min-height: 200px;
+    width: 200px;
+ }
+
+.address-cork {
+    height: auto;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#social-links {
+    display: flex;
+    list-style-type: none;
+}
+
+#social-links i {
+    color: black;
+    font-size: 230%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 4rem;
+    align-items: center;
 }
 
 /* Media querys for larger screens */
