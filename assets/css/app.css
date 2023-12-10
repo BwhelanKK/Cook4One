@@ -18,7 +18,7 @@ body {
 }
 
 /*Header */
-header {
+section {
     background-color: white;
     position: fixed;
     width: 100%;
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     font-size: 120%;
     align-items: center;
-    column-count: 1;
+    position: fixed;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header {
     color: black;
 }
 
-header a {
+section a {
     text-decoration: none;
 }
 
@@ -84,13 +84,11 @@ main {
 /*  Footer*/
 #footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     bottom: 0;
     width: 100%;
     height: auto;
-    column-count: 1;
 }
 
 
@@ -99,22 +97,22 @@ main {
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
-    flex: 30%;
 }
 
 .socials {
     min-height: 200px;
-    justify-content: center;
     width: 200px;
-    flex: 30%;
- }
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 4rem; 
+    align-items: center;
+  }
 
 .address-cork {
     height: auto;
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
-    flex: 30%;
 }
 
 #social-links {
@@ -127,11 +125,13 @@ main {
     font-size: 230%;
 }
 
-.socials {
-    display: flex;
-    flex-direction: row;
-    letter-spacing: 4rem;
-    align-items: center;
+#social-links li {
+    justify-content: center;
+}
+
+/*  Media quety for screens up to 600px */ 
+@media (max-width: 600) {
+
 }
 
 /* Media querys for larger screens */
