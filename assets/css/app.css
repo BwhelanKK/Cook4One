@@ -18,42 +18,32 @@ body {
 }
 
 /*Header */
-section {
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    padding: 0 1rem;    
+.navbar {
     display: flex;
+    width: 100%;
+    background-color: rgb(58, 53, 53);
     justify-content: space-between;
-    font-size: 120%;
+    padding-right: 1rem;
     align-items: center;
     position: fixed;
 }
 
-.logo {
-    font-family: 'Teko', sans-serif;
-    letter-spacing: -2px;
-    font-size: 190%;
-    color: black;
-}
-
-section a {
+.navbar a {
+    color: white;
     text-decoration: none;
-}
-
-a:hover {
-    background-color: lightgray;
-}
-
-#menu li {
-    list-style-type: none;
-    padding-bottom: 8px;
-}
-
-#menu li a {
-    color: rgba(21, 20, 20, 0.778);
+    padding: 10px 20px;
     letter-spacing: 2px;
 }
+
+
+
+
+.logo {
+    font-size: 220%;
+    letter-spacing: -4px;
+    margin-left: 1rem;
+}
+
 
 
 /*Main */
@@ -130,12 +120,25 @@ main {
 }
 
 /*  Media quety for screens up to 600px */ 
-@media (max-width: 600) {
+@media (max-width: 600px) {
+
+    .navbar,
+    .nav-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
 /* Media querys for larger screens */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     nav {
         display: block;
         position: relative;
@@ -150,5 +153,5 @@ main {
     #menu li {
         padding-left: 1rem;
     }
-}
+} */
 
