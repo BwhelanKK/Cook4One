@@ -35,6 +35,11 @@ body {
     letter-spacing: 2px;
 }
 
+.navbar a:hover {
+    background-color: lightgray;
+    text-decoration: underline;
+}
+
 
 
 
@@ -59,7 +64,6 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
 }
 
 .hero-headings {
@@ -69,6 +73,22 @@ main {
     left: 50%;
     color: white;
     transform: translate(-50%, -50%);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem 1rem;
+    background-color: gray;
+}
+
+#about-us-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
 /*  Footer*/
@@ -119,7 +139,7 @@ main {
     justify-content: center;
 }
 
-/*  Media quety for screens up to 600px */ 
+/*  Media query for screens up to 600px */ 
 @media (max-width: 600px) {
 
     .navbar,
@@ -134,7 +154,6 @@ main {
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 /* Media querys for larger screens */
