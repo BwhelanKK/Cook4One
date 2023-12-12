@@ -75,21 +75,24 @@ main {
     transform: translate(-50%, -50%);
 }
 
+.hero-headings h4 {
+    margin-top: 1rem;
+}
+
 #container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    background-color: gray;
+    margin-top: 2rem;
 }
 
 .description {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
     padding: 2rem 1rem 0 1rem;
-    width: 100%;
+    width: 60%;
     height: 150px;
     font-size: 130%;
     font-weight: 400;
@@ -97,15 +100,23 @@ main {
     border: 1px solid red ;
 }
 
+.description p {
+    align-items: center;
+}
+
 .about-us-details {
     display: flex;
-    padding-top: 3rem;
+    flex-direction: column;
+    width: 400px;
     height: 500px;
-    width: fit-content;
-    border: 1px solid red;
-} 
+    align-items: center;
+}
 
-/*  Footer*/
+.details {
+    margin: 2rem;
+}
+
+ /* Footer */
 #footer {
     display: flex;
     justify-content: space-around;
@@ -168,23 +179,10 @@ main {
         flex-direction: column;
         align-items: center;
     }
-}
-
-/* Media querys for larger screens */
-/* @media screen and (min-width: 768px) {
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        align-items: center;
-        flex-direction: column;
-    }
-    #menu {
+    #container {
         display: flex;
+        flex-direction: column;  
+        align-items: center;
     }
-
-    #menu li {
-        padding-left: 1rem;
-    }
-} */
+}
 
