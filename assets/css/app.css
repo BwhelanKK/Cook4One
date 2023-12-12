@@ -58,7 +58,7 @@ main {
 }
 
 #hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/jason-briscoe-k21a9naJr04-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/jason-briscoe-k21a9naJr04-unsplash.jpg);
     height: 500px;
     width: 100%;
     background-position: center;
@@ -84,7 +84,7 @@ main {
     flex-direction: row;
     justify-content: center;
     margin-top: 2rem;
- }
+}
 
 .description {
     display: flex;
@@ -96,8 +96,8 @@ main {
     height: 150px;
     font-size: 130%;
     font-weight: 400;
-    letter-spacing: 1.5px  ;
-    border: 1px solid red ;
+    letter-spacing: 1.5px;
+    border: 1px solid red;
 }
 
 .description p {
@@ -120,7 +120,7 @@ main {
     padding-top: 10px;
 }
 
- /* Footer */
+/* Footer */
 #footer {
     display: flex;
     justify-content: space-around;
@@ -143,9 +143,9 @@ main {
     width: 200px;
     display: flex;
     flex-direction: row;
-    letter-spacing: 4rem; 
+    letter-spacing: 4rem;
     align-items: center;
-  }
+}
 
 .address-cork {
     height: auto;
@@ -168,7 +168,7 @@ main {
     justify-content: center;
 }
 
-/*  Media query for screens up to 600px */ 
+/*  Media query for screens up to 600px */
 @media (max-width: 600px) {
 
     .navbar,
@@ -179,14 +179,14 @@ main {
     }
 
     .hero-headings {
-        position:absolute;
+        position: absolute;
         top: 50%;
         font-size: 80%
     }
 
     #container {
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
         align-items: center;
         font-size: 75%
     }
@@ -200,7 +200,7 @@ main {
 
     .about-us-details:nth-of-type(1) {
         margin-top: 1rem;
-    } 
+    }
 
     #footer {
         display: flex;
@@ -218,5 +218,8 @@ main {
         border-bottom: 1px solid gray;
         padding: 1.5rem;
     }
-}
 
+    .address-cork {
+        padding-top: 1.5rem;
+    }
+}
