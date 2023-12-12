@@ -58,7 +58,7 @@ main {
 }
 
 #hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/jason-briscoe-k21a9naJr04-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/jason-briscoe-k21a9naJr04-unsplash.webp);
     height: 500px;
     width: 100%;
     background-position: center;
