@@ -79,8 +79,13 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* Not sure what this is meant to be - check */
-    /* martems: center; */
+    height: 400px;
+}
+
+#about-us {
+    text-align: center;
+    font-size: 160%;
+    margin-top: 1rem;
 }
 
 #statement-banner {
