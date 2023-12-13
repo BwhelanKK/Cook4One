@@ -82,20 +82,31 @@ main {
     height: 400px;
 }
 
-/* #about-us {
-    text-align: center;
-    font-size: 160%;
-    margin-top: 1rem;
-} */
+.about-us-details {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.details {
+    margin: 2rem;
+}
+
+.details li {
+    padding-top: 10px;
+}
 
 #statement-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/shot-UsZNiW6LyQ0-unsplash.webp);
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .ethos {
@@ -113,23 +124,6 @@ main {
 
 .ethos h4 {
     text-align: left;
-}
-
-.about-us-details {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 500px;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.details {
-    margin: 2rem;
-}
-
-.details li {
-    padding-top: 10px;
 }
 
 /* Footer */
@@ -218,9 +212,17 @@ main {
         margin-top: 1rem;
     }
 
-    #statement-banner {
+    #banner {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        font-size: 75%
+    }
+
+    /* #statement-banner {
+        display: flex;
+        flex-direction: column;
+        flex: 1 auto;
     }
 
     .ethos {
@@ -228,7 +230,7 @@ main {
         height: auto;
         align-items: center;
         font-size: 75%
-    }
+    } */
 
     #footer {
         display: flex;
