@@ -49,7 +49,8 @@ body {
 /*Main */
 main {
     flex: 1 0 auto;
-    /* margin-top: 47px; */
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-image {
@@ -98,6 +99,22 @@ main {
 
 .details li {
     padding-top: 10px;
+}
+
+/* Sign Up Sectiion */
+
+#sign-up {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/shot-UsZNiW6LyQ0-unsplash.webp); */
+    height: 550px;
+    width: 100%;
+    background-position: 80%;
+    background-size: cover;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.field {
+    width: 400px;
 }
 
 /* Footer */
