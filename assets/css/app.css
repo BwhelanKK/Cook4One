@@ -137,6 +137,25 @@ main {
     margin: 1rem 0;
 }
 
+.enter {
+    height: 25px;
+    width: 15rem;
+    color: rgba(251, 244, 244, 0.5);
+}
+
+.select {
+    height: 25px;
+    width: 15rem;
+}
+
+#submit-form {
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 100%;
+}
+
 /* Footer */
 #footer {
     display: flex;
