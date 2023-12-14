@@ -117,14 +117,24 @@ main {
     margin: 2rem 4rem;
 }
 
-/* #sign-up-form p {
-    color: white;
-} */
 
-#sign-up-form h2,
-p {
+#sign-up-form h2 {
     color: white;
     padding: 1rem 0;
+    font-size: 220%;
+}
+
+#sign-up-form p {
+    font-size: 140%;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.course-details,
+.personal-details {
+    font-size: 110%;
+    color: white;
+    margin: 1rem 0;
 }
 
 /* Footer */

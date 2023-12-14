@@ -83,26 +83,30 @@
         <form action="https://formdump.codeinstitute.net" id="sign-up-form"method="post">
     
         <h2>Sign Up Here</h2>
-        <p>Our course run from 6.30pm to 8.30pm Monday to Friday.Pleascomplete the following</p>
-    
-            <label for="first">First Name:</label>
+        <p>Our course run from 6.30pm to 8.30pm Monday to Friday, adn are 6 weeks in duration. Please complete the following:</p>
+        <!-- Enter personal details -->
+        <div class="personal-details">
+            <label for="first" class="input">First Name:</label> <br>
             <input type="text" id="first-name" name="first"class="enter" required placeholder="Enter first name">
             <br> <br>
     
-            <label for="last">Last Name:</label>
+            <label for="last" class="input">Last Name:</label> <br>
             <input type="text" id="last-name" name="last" class="enter"required placeholder="Enter surname"> <br>
             <br>
-            <label for="first">Email Address:</label>
+            <label for="first" class="input">Email Address:</label> <br>
             <input type="email" id="email-address" name="email"class="enter" required placeholder="Enter Email">
             <br>
+        </div>
 
+        <!-- Enter course details -->
+        <div class="course-details">
             <input type="radio" id="location-dublin" name="location"value="Dublin" required checked>
-            <label for="location-dublin">Dublin</label><br>
+            <label for="location-dublin" class="input">Dublin</label><br>
     
             <input type="radio" id="location-cork" name="location"value="Cork" required>
-            <label for="location-cork">Cork</label><br> <br>
+            <label for="location-cork" class="input">Cork</label><br> <br>
     
-            <label for="day">Day:</label>
+            <label for="day" class="input">Day:</label>
             <select name="day" id="day" required>
                 <option value="">--Please select a day--</option>
                 <option value="monday">Monday</option>
@@ -111,7 +115,8 @@
                 <option value="thursday">Thursday</option>
                 <option value="friday">Friday</option>
             </select>
-            <br> <br>
+        </div>
+            
     
             <input type="submit" name="submit" id="submit-form">
     
