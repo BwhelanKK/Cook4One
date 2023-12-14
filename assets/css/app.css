@@ -113,8 +113,8 @@ main {
     width: 80%;
 }
 
-.field {
-    width: 400px;
+#sign-up-form {
+    color: darkgray;
 }
 
 /* Footer */
