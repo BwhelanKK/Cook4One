@@ -134,25 +134,27 @@ main {
 .personal-details {
     font-size: 110%;
     color: white;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 .enter {
-    height: 25px;
+    height: 30px;
     width: 15rem;
     color: rgba(251, 244, 244, 0.5);
+    border-radius: 5px;
 }
 
 .select {
-    height: 25px;
+    height: 30px;
     width: 15rem;
+    border-radius: 5px;
 }
 
 #submit-form {
     height: 50px;
     width: 100px;
-    border-radius: 4px;
-    padding: 5px 15px;
+    border-radius: 7px;
+    padding: 10px 55px;
     font-size: 100%;
 }
 
