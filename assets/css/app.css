@@ -59,6 +59,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .hero-headings {
@@ -79,14 +80,14 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 400px;
+    height: auto;
 }
 
 .about-us-details {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 500px;
+    height: auto;
     align-items: center;
     margin-top: 2rem;
 }
@@ -156,9 +157,13 @@ main {
         align-items: flex-start;
     }
 
+    #hero-image {
+        height: 100%;
+    }
+
     .hero-headings {
         position: absolute;
-        top: 30%;
+        top: 20%;
         font-size: 80%
     }
 
