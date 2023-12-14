@@ -104,17 +104,27 @@ main {
 /* Sign Up Sectiion */
 
 #sign-up {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/shot-UsZNiW6LyQ0-unsplash.webp); */
+    background-color: rgb(58, 53, 53);
     height: 550px;
     width: 100%;
     background-position: 80%;
     background-size: cover;
     flex-grow: 1;
-    width: 80%;
 }
 
 #sign-up-form {
     color: darkgray;
+    margin: 2rem 4rem;
+}
+
+/* #sign-up-form p {
+    color: white;
+} */
+
+#sign-up-form h2,
+p {
+    color: white;
+    padding: 1rem 0;
 }
 
 /* Footer */
