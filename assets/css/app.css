@@ -103,7 +103,7 @@ main {
 
 #sign-up {
     /* background-color: rgb(58, 53, 53); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/david-mendoza-pABS6t4UfVU-unsplash.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/david-mendoza-pABS6t4UfVU-unsplash.webp);
     height: auto;
     width: 100%;
     background-position: 80%;
