@@ -16,6 +16,8 @@ Cook4One was created as a landing page for a cookery course targeted at people t
   
   ### The Main Image
    - There is a large image which denotes a modern stylish professional kitchen.  This has the course ethos highlighted in clear bold text.
+
+![Hero Image of a busy professional kitchen](https://i.imgur.com/pivoCpS.jpg)
   
 ### Features Left to Implement
 
