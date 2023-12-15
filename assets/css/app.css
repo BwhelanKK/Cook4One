@@ -55,7 +55,7 @@ main {
 
 #hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/jason-briscoe-k21a9naJr04-unsplash.webp);
-    height: 550px;
+    height: 650px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,8 +179,8 @@ main {
 }
 
 .socials {
-    min-height: 200px;
-    width: 200px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     letter-spacing: 4rem;
@@ -204,8 +204,8 @@ main {
     font-size: 230%;
 }
 
-#social-links li {
-    justify-content: center;
+#social-links ul li {
+    padding: 20px;
 }
 
 /*  Media query for screens up to 600px */
