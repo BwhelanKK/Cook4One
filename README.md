@@ -4,15 +4,18 @@ Cook4One was created as a landing page for a cookery course targeted at people t
 
 ![Responsive viewport images](https://i.imgur.com/rQIDHy1.png)
 
-### Existing Features
+## Existing Features
 
-- Navigation header
+- ### Navigation header
 
   - The navigation bar is on the top RH corner of the page.  It contains links to the About and Sign Up sections, as well as a home link:
 
 ![Menubar](https://i.imgur.com/qk0PrvG.jpg)
   
-  The footer also has links to Facebook, Twitter (X) and Instagram.
+  - The footer also has links to Facebook, Twitter (X) and Instagram.
+  
+  ### The Main Image
+   - There is a large image which denotes a modern stylish professional kitchen.  This has the course ethos highlighted in clear bold text.
   
 ### Features Left to Implement
 
