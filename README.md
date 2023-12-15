@@ -2,7 +2,7 @@
 
 Cook4One was created as a landing page for a cookery course targeted at people that have little or no experience in cooking.  The main target is new college students in shared accomodation with a small budget. The course aims are to teach the candidates how to budget, plan an prepare meals, as well as the benefits of good nutrition and fresh local produce.  The course is avaiable in Dublin and Cork.
 
-![Responsive viewport images](..images/Cook4One image.png)
+![Responsive viewport images](..assets/images/Cook4One image.png)
 ## Features
 
 ### Existing Features
