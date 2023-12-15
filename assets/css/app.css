@@ -60,7 +60,6 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
 }
 
 .hero-headings {
@@ -81,7 +80,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: auto;
 }
 
 .about-us-details {
@@ -106,7 +104,7 @@ main {
 #sign-up {
     /* background-color: rgb(58, 53, 53); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/david-mendoza-pABS6t4UfVU-unsplash.webp);
-    height: 550px;
+    height: auto;
     width: 100%;
     background-position: 80%;
     background-size: cover;
@@ -185,7 +183,7 @@ main {
     flex-direction: row;
     letter-spacing: 4rem;
     align-items: center;
-    padding-left: 55px;
+    padding: 25px 0 25px 55px;
 }
 
 .address-cork {
@@ -193,6 +191,7 @@ main {
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
 #social-links {
@@ -286,7 +285,6 @@ main {
 
     .socials {
         border-bottom: 1px solid gray;
-        padding: 1.5rem;
     }
 
     .address-cork {
