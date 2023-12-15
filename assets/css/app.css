@@ -125,7 +125,7 @@ main {
 }
 
 #sign-up-form p {
-    font-size: 140%;
+    font-size: 110%;
     color: white;
     padding-bottom: 1rem;
 }
@@ -148,8 +148,15 @@ main {
     height: 30px;
     width: 15rem;
     border-radius: 5px;
+    margin-bottom: 2rem;
 }
 
+.location {
+    margin-top: 2rem;
+}
+
+
+/* Submit button styling */
 #submit-form {
     height: 50px;
     width: 100px;
