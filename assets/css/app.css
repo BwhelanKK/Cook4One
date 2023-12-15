@@ -185,6 +185,7 @@ main {
     flex-direction: row;
     letter-spacing: 4rem;
     align-items: center;
+    padding-left: 55px;
 }
 
 .address-cork {
