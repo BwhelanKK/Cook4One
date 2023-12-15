@@ -191,7 +191,6 @@ main {
     width: 200px;
     text-align: center;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
 }
 
 #social-links {
@@ -217,10 +216,6 @@ main {
         flex-direction: column;
         align-items: flex-start;
     }
-
-    /* #hero-image {
-        height: 100%;
-    } */
 
     .hero-headings {
         position: absolute;

@@ -12,6 +12,8 @@ Cook4One was created as a landing page for a cookery course targeted at people t
 
 ![Menubar](https://i.imgur.com/qk0PrvG.jpg)
   
+  The footer also has links to Facebook, Twitter (X) and Instagram.
+  
 ### Features Left to Implement
 
 ## Testing
