@@ -151,18 +151,11 @@ main {
     margin-bottom: 2rem;
 }
 
-.location {
-    margin-top: 2rem;
-}
-
-
 /* Submit button styling */
 #submit-form {
     height: 50px;
     width: 100px;
     border-radius: 7px;
-    padding: 10px 55px;
-    font-size: 100%;
 }
 
 /* Footer */
