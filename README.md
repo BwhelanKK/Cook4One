@@ -21,7 +21,10 @@ Cook4One was created as a landing page for a cookery course targeted at people t
   
 ### Features Left to Implement
 
+I would like to add some sample recipes, with images.
+
 ## Testing
+This has been tested in Chrome, Firefox and Opera. They were tested on all viewport sizes and there were no issues with any browder. 
 
 ### Validator Testing
 
