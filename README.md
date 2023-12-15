@@ -1,7 +1,31 @@
 # Cook4One
 
-Cook4One was created as a landing page for a cookery course targeted at people that have little or no experience in cooking.  The main target is new college students in shared accomodation with a small budget.
+Cook4One was created as a landing page for a cookery course targeted at people that have little or no experience in cooking.  The main target is new college students in shared accomodation with a small budget.  The course aims are to teach the candidates how to budget, plan an prepare meals i
 
+## Features
+
+### Existing Features
+
+### Features Left to Implement
+
+## Testing
+
+### Validator Testing
+
+### Unfixed Bugs
+
+
+## Deployment
+
+
+## Credits
+
+### Content
+
+### Media
+
+
+## Other General Project Advice
 
 
 
