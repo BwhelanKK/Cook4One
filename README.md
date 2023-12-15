@@ -1,4 +1,12 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Cook4One
+
+Cook4One was created as a landing page for a cookery course targeted at people that have little or no experience in cooking.  The main target is new college students in shared accomodation with a small budget.
+
+
+
+
+
+
 
 Welcome,
 
