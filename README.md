@@ -12,10 +12,11 @@ Cook4One was created as a landing page for a cookery course targeted at people t
 
 ![Menubar](https://i.imgur.com/qk0PrvG.jpg)
   
-  - The footer also has links to Facebook, Twitter (X) and Instagram.
+- The footer also has links to Facebook, Twitter (X) and Instagram.
   
-  ### The Main Image
-   - There is a large image which denotes a modern stylish professional kitchen.  This has the course ethos highlighted in clear bold text.
+### The Main Image
+
+- There is a large image which denotes a modern stylish professional kitchen.  This has the course ethos highlighted in clear bold text.
 
 ![Hero Image of a busy professional kitchen](https://i.imgur.com/pivoCpS.jpg)
   
@@ -24,7 +25,8 @@ Cook4One was created as a landing page for a cookery course targeted at people t
 I would like to add some sample recipes, with images.
 
 ## Testing
-This has been tested in Chrome, Firefox and Opera. They were tested on all viewport sizes and there were no issues with any browder. 
+
+This has been tested in Chrome, Edge, Firefox and Opera. They were tested on all viewport sizes and there were no issues with any browder.
 
 ### Validator Testing
 
