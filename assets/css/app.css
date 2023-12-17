@@ -197,6 +197,10 @@ main {
     color: white;
 }
 
+.address-cork p {
+    color: white;
+}
+
 #social-links {
     display: flex;
     list-style-type: none;
