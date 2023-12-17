@@ -164,7 +164,7 @@ main {
 #footer-nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     bottom: 0;
     width: 100%;
     height: auto;
