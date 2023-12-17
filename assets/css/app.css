@@ -141,7 +141,6 @@ main {
 .enter {
     height: 30px;
     width: 15rem;
-    /* color: rgba(251, 244, 244, 0.5); */
     border-radius: 5px;
 }
 
