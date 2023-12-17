@@ -49,6 +49,7 @@ There are no unfixed bugs.
   - Select 'Settings' in the main navigation bar.
   - From the source section drop down menu, select 'Master Branch'.
   - The live link will now be available.
+The live link can be found here: <https://bwhelankk.github.io/Cook4One/>
 
 ## Credits
 
