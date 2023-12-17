@@ -38,11 +38,17 @@ This has been tested in Chrome, Edge, Firefox and Opera. They were tested on all
   - I used Lighthouse to test the site accessability:
  ![Lighthouse results](https://i.imgur.com/pJAcYzH.jpg)
 
-### Validator Testing
-
 ### Unfixed Bugs
 
+There are no unfixed bugs.
+
 ## Deployment
+
+- This was deployed to Github pages.  The steps involved in deployment are:
+  - In Github, navigate to the correct repository.
+  - Select 'Settings' in the main navigation bar.
+  - From the source section drop down menu, select 'Master Branch'.
+  - The live link will now be available.
 
 ## Credits
 
