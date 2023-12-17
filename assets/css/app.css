@@ -24,6 +24,7 @@ body {
     padding-right: 1rem;
     align-items: center;
     position: fixed;
+    border-bottom: 1px solid white;
 }
 
 #navbar a {
@@ -195,10 +196,6 @@ main {
     width: 250px;
     text-align: center;
     letter-spacing: 2px;
-    color: white;
-}
-
-.address-cork p {
     color: white;
 }
 
