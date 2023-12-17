@@ -22,7 +22,9 @@ Cook4One was created as a landing page for a cookery course targeted at people t
 
 ### About Us Image
 
- - This is the sign up image located at thebottom of the page
+ - This is the sign up section located at the bottom of the page.  It encourages the user to submit their details and to choose the day of the week they'd like to attend.
+
+![Sign up image]()
   
 ### Features Left to Implement
 
