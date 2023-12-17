@@ -176,6 +176,7 @@ main {
     width: 250px;
     text-align: center;
     letter-spacing: 2px;
+    color: white;
 }
 
 .socials {
@@ -193,6 +194,7 @@ main {
     width: 250px;
     text-align: center;
     letter-spacing: 2px;
+    color: white;
 }
 
 #social-links {
@@ -201,7 +203,7 @@ main {
 }
 
 #social-links i {
-    color: black;
+    color: white;
     font-size: 230%;
 }
 
