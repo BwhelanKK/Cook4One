@@ -34,6 +34,9 @@ This has been tested in Chrome, Edge, Firefox and Opera. They were tested on all
   - No errors were detected in the W3C Validator. I did get 'Info' messages in relation to 'trailing slashes on void elements'. Method used was 'Validate by Direct Input'.  This has now been rectified.
 - CSS
   - No errors were detected when passed throught the W3C CSS Jigsaw validator. Testing method used was 'By Direct Input'.
+- Accessability
+ - I used Lighthouse to test the site accessability:
+ [!Lighthouse results](https://i.imgur.com/pJAcYzH.jpg)
 
 ### Validator Testing
 
