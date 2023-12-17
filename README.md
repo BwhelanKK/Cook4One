@@ -30,6 +30,13 @@ This has been tested in Chrome, Edge, Firefox and Opera. They were tested on all
 
 ### Validator Testing
 
+ - HTML
+- No errors were detected in the W3C Validator. I did get 'Info' messages in relation to 'trailing slashes on void elements'. Method used was 'Validate by Direct Input' ![W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+- CSS
+  - No errors were detected when passed throught the W3C CSS Jigsaw validator. ![WC3 CSS Jigsaw Validator]()
+
+### Validator Testing
+
 ### Unfixed Bugs
 
 ## Deployment
